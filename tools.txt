@@ -1,0 +1,19 @@
+-ide
+visual studio
+
+-color picker
+pixie
+
+-browser
+google chrome
+
+-font sites
+font awesome
+google fonts
+
+-images
+https://stocksnap.io/
+https://www.pexels.com/
+https://unsplash.com/
+https://www.reshot.com/
+https://gratisography.com/
