@@ -1,0 +1,85 @@
+body {
+        background: url(../images/background.jpg) no-repeat center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+      }
+.loginBox {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 350px;
+height: 420px;
+padding: 80px,40px;
+box-sizing:border-box;
+border-radius: 10px;
+background: rgba(0,0,0,.5);
+}
+.dp {
+    /* facebook res */
+    width: 168px;
+    height: 168px;
+    border-radius: circle;
+    border-color:slateblue;
+    overflow: hidden;
+    position: absolute;
+    top:-150px;
+    left:26%;
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0 0 20px;
+    color:lightpink;
+    text-align:center;
+}
+.loginBox p {
+    margin: 0; 
+    padding: 0%; 
+    font-weight: bold;
+    /* color: whitesmoke; */
+    color:lightyellow;
+}
+.loginBox input {
+width: 100%;
+margin-bottom:20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+::placeholder { 
+    color: grey;
+    background: transparent;
+    font-style: italic;
+}
+.loginBox input  {
+    border:none; 
+    outline:none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: pink;
+    color:white;
+    font-size: 16px;
+}
+.loginBox input [type="submit"] :hover {
+    background:green;
+    color:black;
+    transition: 2s;
+    font-size: 18px;
+}
+.loginBox a {
+color:lightyellow;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+}
